@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Object files
 *.o
 *.ko
@@ -30,3 +31,32 @@
 
 # Debug files
 *.dSYM/
+=======
+*.o
+
+Makefile
+Makefile.in
+
+INSTALL
+missing
+depcomp
+install-sh
+compile
+ethtool-config.h*
+ethtool.spec
+ethtool.8
+ethtool
+test-cmdline
+test-driver
+test-features
+stamp-h1
+config.*
+aclocal.m4
+configure
+*.tar.gz
+push
+
+.dotest
+autom4te.cache
+.deps
+>>>>>>> kernel/master
