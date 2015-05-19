@@ -460,6 +460,9 @@ static int rxflow_str_to_type(const char *str)
 	return flow_type;
 }
 
+#define PACKAGE "ethtool"
+#define VERSION "v3.18"
+
 static int do_version(struct cmd_context *ctx)
 {
 	fprintf(stdout,
